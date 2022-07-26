@@ -1,0 +1,43 @@
+.container{
+    width: 60%;
+    height: 40px;
+    margin: 10px 20%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 7px gray;
+    border-radius: 10px;
+    padding: 10px;
+    background:rgb(254, 255, 255);
+}
+
+.left_side{
+    margin: 2px;
+    display: flex;
+    gap:10px;
+}
+.right_side{
+    margin: 2px;
+    display: flex;
+    gap:10px;
+    
+}
+.left_side h1{
+    color:gray;      
+}
+.center_side{
+    color:gray;   
+    text-transform: uppercase;
+}
+.buttons{
+    border:none;
+    padding: 10px;
+    border-radius: 7px;
+    cursor:pointer;
+    color:white;
+    background:rgb(13, 174, 206);
+}
+.buttons:hover{
+      background:linear-gradient(to bottom,transparent,rgb(13, 174, 206));
+}
